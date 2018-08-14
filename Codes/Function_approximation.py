@@ -1,3 +1,17 @@
+# File: Function_approximation.py
+# Description: Approximation of function with the help of system of linear equations
+# Environment: PyCharm and Anaconda environment
+#
+# MIT License
+# Copyright (c) 2018 Valentyn N Sichkar
+# github.com/sichkar-valentyn
+#
+# Reference to:
+# Valentyn N Sichkar. Machine Learning in Python // GitHub platform
+
+
+
+
 # Implementing the task
 # Approximation function with linear equations
 # Solving equations with matrix method
