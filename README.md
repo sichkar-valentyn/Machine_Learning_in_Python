@@ -5,7 +5,7 @@ Implementing Machine Learning algorithms and techniques in Python.
 Valentyn N Sichkar. Machine Learning in Python // GitHub platform
 
 ## Description
-Practical experiments on Machine Learning in Python.
+Practical experiments on Machine Learning in Python. Processing of sentences and finding relevant ones, approximation of function with polynomials.
 
 ## Content
 Codes (it'll send you to appropriate file):
