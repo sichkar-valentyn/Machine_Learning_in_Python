@@ -15,14 +15,14 @@ Codes (it'll send you to appropriate file):
 <br/>
 Experimental results (figures and tables on this page):
 
-* <a href="#Processing Sentences">Processing Sentences</a>
-* <a href="#Function approximation">Function approximation</a>
+* <a href="#Processing sentences and finding cosine distances">Processing sentences and finding cosine distances</a>
+* <a href="#Approximation of functions via linear equations">Approximation of functions via linear equations</a>
 
-### <a name="Processing Sentences">Processing Sentences</a>
+### <a name="Processing sentences and finding cosine distances">Processing sentences and finding cosine distances</a>
 
 ![RGB_channels](images/RGB_channels.png)
 
-### <a name="Function approximation">Function approximation</a>
+### <a name="Approximation of functions via linear equations">Approximation of functions via linear equations</a>
 
 ![RGB_channels](images/RGB_channels.png)
 
