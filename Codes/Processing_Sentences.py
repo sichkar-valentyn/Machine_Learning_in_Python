@@ -1,3 +1,17 @@
+# File: Processing_Sentences.py
+# Description: Finding cosine distances between sentences
+# Environment: PyCharm and Anaconda environment
+#
+# MIT License
+# Copyright (c) 2018 Valentyn N Sichkar
+# github.com/sichkar-valentyn
+#
+# Reference to:
+# Valentyn N Sichkar. Machine Learning in Python // GitHub platform
+
+
+
+
 # Implementing the task about sentences
 # Finding cosine distance between first sentence and all others
 # For implementation a matrix NxM is created
