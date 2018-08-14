@@ -58,7 +58,7 @@ Then, two closest sentences to the 0-numbered sentence were found as a result.
 Full code is available here: [Processing_Sentences.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Processing_Sentences.py)
 
 ### <a name="Approximation of functions via linear equations">Approximation of functions via linear equations</a>
-Implementing the task for approximation of function with linear equations. Using first degree polynomial, second degree polynomial and third degree polynomial. Solving equations with matrix method via 'numpy.linalg.solve(a, b)' function.
+Implementing the task for approximation of function with linear equations. Using first degree polynomial, second degree polynomial and third degree polynomial. Solving equations with matrix method via **'numpy.linalg.solve(a, b)'** function.
 
 Initial function is as following:
 <br/>**f(x) = sin(x / 5) * exp(x / 10) + 5 * exp(-x / 2)**
@@ -66,7 +66,6 @@ Initial function is as following:
 Points for first degree polynomials are: **1, 15**
 <br/>Points for second degree polynomials are: **1, 8, 15**
 <br/>Points for third degree polynomials are: **1, 4, 10, 15**
-
 <br/><br/>Part of the code is shown below with a lot of comments:
 
 ```py
@@ -90,7 +89,7 @@ w = np.linalg.solve(a, b)  # [ 3.43914511 -0.18692825]
 
 Results are plot in order to understand the quality of approximation in eche case. Figure is shown below
 
-![RGB_channels](images/RGB_channels.png)
+![Approximation_of_function](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/images/Approximation_of_function.png)
 
 Full code is available here: [Function_approximation.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Function_approximation.py)
 
