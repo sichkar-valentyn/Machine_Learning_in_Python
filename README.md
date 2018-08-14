@@ -1,8 +1,9 @@
 # Machine Learning in Python
 Implementing Machine Learning algorithms and techniques in Python.
+<br/>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1345027.svg)](https://doi.org/10.5281/zenodo.1345027)
 
 ### Reference to:
-Valentyn N Sichkar. Machine Learning in Python // GitHub platform
+Valentyn N Sichkar. Machine Learning in Python // GitHub platform. DOI: 10.5281/zenodo.1345027
 
 ## Description
 Practical experiments on Machine Learning in Python. Processing of sentences and finding relevant ones, approximation of function with polynomials.
@@ -103,4 +104,4 @@ Results are plot in order to understand the quality of approximation in eache ca
 ### Copyright (c) 2018 Valentyn N Sichkar
 ### github.com/sichkar-valentyn
 ### Reference to:
-Valentyn N Sichkar. Machine Learning in Python // GitHub platform
+Valentyn N Sichkar. Machine Learning in Python // GitHub platform. DOI: 10.5281/zenodo.1345027
