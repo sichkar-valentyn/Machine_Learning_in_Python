@@ -57,6 +57,7 @@ Then, two closest sentences to the 0-numbered sentence were found as a result.
 
 Full code is available here: [Processing_Sentences.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Processing_Sentences.py)
 
+<br/>
 
 ### <a name="Approximation of functions via linear equations">Approximation of functions via linear equations</a>
 Implementing the task for approximation of function with linear equations. Using first degree polynomial, second degree polynomial and third degree polynomial. Solving equations with matrix method via **'numpy.linalg.solve(a, b)'** function.
