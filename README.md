@@ -45,7 +45,7 @@ lst_distances.sort()  # All elements are sorted now by increasing
 result_1 = list(d.keys())[list(d.values()).index(lst_distances[0])]
 result_2 = list(d.keys())[list(d.values()).index(lst_distances[1])]
 
-print(result_1, result_2)  # number of closest sentences
+print(result_1, result_2)  # Number of closest sentences
 print(d)
 
 ```
@@ -58,8 +58,41 @@ Then, two closest sentences to the 0-numbered sentence were found as a result.
 Full code is available here: [Processing_Sentences.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Processing_Sentences.py)
 
 ### <a name="Approximation of functions via linear equations">Approximation of functions via linear equations</a>
+Implementing the task for approximation of function with linear equations. Using first degree polynomial, second degree polynomial and third degree polynomial. Solving equations with matrix method via 'numpy.linalg.solve(a, b)' function.
+
+Initial function is as following:
+<br/>**f(x) = sin(x / 5) * exp(x / 10) + 5 * exp(-x / 2)**
+
+Points for first degree polynomials are: **1, 15**
+<br/>Points for second degree polynomials are: **1, 8, 15**
+<br/>Points for third degree polynomials are: **1, 4, 10, 15**
+
+<br/><br/>Part of the code is shown below with a lot of comments:
+
+```py
+import numpy as np
+
+
+# Creating first degree polynomials in the points of 1 and 15
+# It has to be in following form:
+# w_0 + w_1 * x_1 = y_1
+# w_0 + w_1 * x_2 = y_2
+# Writing systems of equations into two-dimensional array 'a' and vector 'b'
+a = np.array([[1, 1], [1, 15]])
+b = np.array([f(1), f(15)])  # [3.25221687 0.63522142]
+
+# Solving system of linear equations for first degree polynomial
+w = np.linalg.solve(a, b)  # [ 3.43914511 -0.18692825]
+# Found equation for the first degree polynomial is as following:
+# y = w[0] + w[1] * x
+
+```
+
+Results are plot in order to understand the quality of approximation in eche case. Figure is shown below
 
 ![RGB_channels](images/RGB_channels.png)
+
+Full code is available here: [Function_approximation.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Function_approximation.py)
 
 <br/>
 
