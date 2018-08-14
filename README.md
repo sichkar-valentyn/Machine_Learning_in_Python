@@ -45,7 +45,7 @@ lst_distances.sort()  # All elements are sorted now by increasing
 result_1 = list(d.keys())[list(d.values()).index(lst_distances[0])]
 result_2 = list(d.keys())[list(d.values()).index(lst_distances[1])]
 
-print(result_1, result_2)  # sentences number 6 and 4
+print(result_1, result_2)  # number of closest sentences
 print(d)
 
 ```
@@ -53,7 +53,7 @@ print(d)
 As a result, dictionary is obtained with number of sentence as a key (from number 1) and distance to the very first sentence (number 0):
 <br/>{1: 0.9527544408738466, 2: 0.8644738145642124, 3: 0.8951715163278082, 4: 0.7770887149698589, 5: 0.9402385695332803, 6: 0.7327387580875756, 7: 0.9258750683338899, 8: 0.8842724875284311, 9: 0.9055088817476932, 10: 0.8328165362273942, 11: 0.8804771390665607, 12: 0.8396432548525454, 13: 0.8703592552895671, 14: 0.8740118423302576, 15: 0.9442721787424647, 16: 0.8406361854220809, 17: 0.956644501523794, 18: 0.9442721787424647, 19: 0.8885443574849294, 20: 0.8427572744917122, 21: 0.8250364469440588}
 
-Then, two closest sentences to the 0-numbered sentence were chosen as a result.
+Then, two closest sentences to the 0-numbered sentence were found as a result.
 
 Full code is available here: [Processing_Sentences.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Processing_Sentences.py)
 
