@@ -57,6 +57,7 @@ Then, two closest sentences to the 0-numbered sentence were found as a result.
 
 Full code is available here: [Processing_Sentences.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Processing_Sentences.py)
 
+
 ### <a name="Approximation of functions via linear equations">Approximation of functions via linear equations</a>
 Implementing the task for approximation of function with linear equations. Using first degree polynomial, second degree polynomial and third degree polynomial. Solving equations with matrix method via **'numpy.linalg.solve(a, b)'** function.
 
@@ -87,11 +88,13 @@ w = np.linalg.solve(a, b)  # [ 3.43914511 -0.18692825]
 
 ```
 
-Results are plot in order to understand the quality of approximation in eche case. Figure is shown below
+Full code is available here: [Function_approximation.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Function_approximation.py)
+
+Results are plot in order to understand the quality of approximation in eache case. Figure is shown below:
 
 ![Approximation_of_function](images/Approximation_of_function.png)
 
-Full code is available here: [Function_approximation.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Function_approximation.py)
+
 
 <br/>
 
