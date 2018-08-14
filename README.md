@@ -19,6 +19,8 @@ Experimental results (figures and tables on this page):
 * <a href="#Processing sentences and finding cosine distances">Processing sentences and finding cosine distances</a>
 * <a href="#Approximation of functions via linear equations">Approximation of functions via linear equations</a>
 
+<br/>
+
 ### <a name="Processing sentences and finding cosine distances">Processing sentences and finding cosine distances</a>
 Implementing the task about processing sentences. Finding cosine distances between first sentence and all others. For implementation a two-dimensional matrix is created, where rows are sentences (objects) and columns are words (properties).
 <br/>Matrix is filled with numbers that corresponds to number of times every word (property) were met in every sentence. Then, after matrix was built, distances are calculated between first vector (row) and all others. Calculation is done with the help of **'scipy.spatial.distance.cosine'** function.
