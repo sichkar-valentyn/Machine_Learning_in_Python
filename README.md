@@ -9,8 +9,8 @@ Practical experiments on Machine Learning in Python.
 
 ## Content
 Codes (it'll send you to appropriate file):
-* [Processing_Sentences](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Processing_Sentences.py)
-* [Function_approximation](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Function_approximation.py)
+* [Processing_Sentences](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Processing_Sentences.py)
+* [Function_approximation](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Function_approximation.py)
 
 <br/>
 Experimental results (figures and tables on this page):
@@ -55,7 +55,7 @@ As a result, dictionary is obtained with number of sentence as a key (from numbe
 
 Then, two closest sentences to the 0-numbered sentence were found as a result.
 
-Full code is available here: [Processing_Sentences.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Processing_Sentences.py)
+Full code is available here: [Processing_Sentences.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Processing_Sentences.py)
 
 ### <a name="Approximation of functions via linear equations">Approximation of functions via linear equations</a>
 
