@@ -89,7 +89,7 @@ w = np.linalg.solve(a, b)  # [ 3.43914511 -0.18692825]
 
 Results are plot in order to understand the quality of approximation in eche case. Figure is shown below
 
-![Approximation_of_function](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/images/Approximation_of_function.png)
+![Approximation_of_function](images/Approximation_of_function.png)
 
 Full code is available here: [Function_approximation.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Function_approximation.py)
 
