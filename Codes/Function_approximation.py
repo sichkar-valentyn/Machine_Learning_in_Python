@@ -7,7 +7,7 @@
 # github.com/sichkar-valentyn
 #
 # Reference to:
-# Valentyn N Sichkar. Machine Learning in Python // GitHub platform
+# Valentyn N Sichkar. Machine Learning in Python // GitHub platform. DOI: 10.5281/zenodo.1345027
 
 
 
