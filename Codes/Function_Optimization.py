@@ -1,3 +1,17 @@
+# File: Function_Optimization.py
+# Description: Optimization of smooth and non-smooth functions with 'BFGS' and 'differential evolution' methods
+# Environment: PyCharm and Anaconda environment
+#
+# MIT License
+# Copyright (c) 2018 Valentyn N Sichkar
+# github.com/sichkar-valentyn
+#
+# Reference to:
+# Valentyn N Sichkar. Machine Learning in Python // GitHub platform. DOI: 10.5281/zenodo.1345027
+
+
+
+
 # Implementing the task
 # Optimization of smooth and non-smooth functions
 
