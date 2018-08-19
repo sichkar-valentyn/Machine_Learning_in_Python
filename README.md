@@ -18,13 +18,15 @@ Practical experiments on Machine Learning in Python. Processing of sentences and
 ## Content
 Codes (it'll send you to appropriate file):
 * [Processing_Sentences](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Processing_Sentences.py)
-* [Function_approximation](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Function_approximation.py)
+* [Function_Approximation](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Function_approximation.py)
+* [Function_Optimization](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Function_Optimization.py)
 
 <br/>
 Experimental results (figures and tables on this page):
 
 * <a href="#Processing sentences and finding cosine distances">Processing sentences and finding cosine distances</a>
 * <a href="#Approximation of functions via linear equations">Approximation of functions via linear equations</a>
+* <a href="#Optimization of smooth and non-smooth functions">Optimization of smooth and non-smooth functions</a>
 
 <br/>
 
@@ -105,7 +107,92 @@ Results are plot in order to understand the quality of approximation in eache ca
 
 ![Approximation_of_function](images/Approximation_of_function.png)
 
+<br/>
 
+### <a name="Optimization of smooth and non-smooth functions">Optimization of smooth and non-smooth functions</a>
+Implementing the task for finding minimum of given smooth and non-smooth functions. Using **scipy.optimaze** library and two methods - **BFGS** and **differential evolution**.
+
+Initial **smooth** function is as following (the same as it is in approximation task above):
+<br/>**f(x) = sin(x / 5) * exp(x / 10) + 5 * exp(-x / 2)**
+
+Finding minimum of **smooth** function with **'BFGS'** method with start point **2**
+<br/><br/>Part of the code is shown below:
+
+```py
+# Setting initial point in form of 'ndarray' as 'minimize' function requires it in form of 'ndarray'
+x0_start = np.array([2])
+# print(type(x))  -->  <class 'numpy.ndarray'>
+# print(x.shape)  -->  (1,)
+# Finding minimum of the function from starting point 'x_start = 2'
+# Using 'minimize' function from 'scipy.optimize' library
+y0_min = optimize.minimize(f_array, x0_start, method='BFGS')
+print(y0_min)  # fun = 1.7452682903449388, iterations = 6
+```
+
+Finding minimum of **smooth** function with **'BFGS'** method with start point **30**
+<br/><br/>Part of the code is shown below:
+
+```py
+# Setting initial point in form of 'ndarray' as 'minimize' function requires it in form of 'ndarray'
+x1_start = np.array([30])
+# print(type(x))  -->  <class 'numpy.ndarray'>
+# print(x.shape)  -->  (1,)
+# Finding minimum of smooth function from starting point 'x_start = 30'
+# Using 'minimize' function from 'scipy.optimize' library
+y1_min = optimize.minimize(f_array, x1_start, method='BFGS')
+print(y1_min)  # fun = -11.898894665981285, iterations = 6 
+```
+
+Finding minimum of **smooth** function with **'differential evolution'** method in range [1, 30]
+<br/><br/>Part of the code is shown below:
+
+```py
+# Setting the range for searching in form of tuple inside list as function requires it
+x2_range = [(1, 30)]  # tuple inside list
+# Finding minimum of smooth function
+y2_min = optimize.differential_evolution(f_array, [(1, 30)])
+print(y2_min)  # fun = -11.89889467, iterations = 5
+```
+
+Initial **non-smooth** function is takeen as an integer results of smooth function defined above:
+<br/>**h(x) = int(f(x))**
+<br/>Part of the code is shown below:
+```py
+# By using 'np.int_' we return 'numpy.ndarray' of integer numbers
+def h_array(k):
+    return np.int_(f_array(k))
+```
+
+Finding minimum of **non-smooth** function with **'BFGS'** method with start point **30**
+<br/><br/>Part of the code is shown below:
+
+```py
+# Setting initial point in form of 'ndarray' as 'minimize' function requires it in form of 'ndarray'
+x3_start = np.array([30])
+# print(type(x))  -->  <class 'numpy.ndarray'>
+# print(x.shape)  -->  (1,)
+# Finding minimum of the function from starting point 'x_start = 30'
+# Using 'minimize' function from 'scipy.optimize' library
+y3_min = optimize.minimize(h_array, x3_start, method='BFGS')
+print(y3_min)  # fun = -5, iterations = 0
+```
+
+Finding minimum of **non-smooth** function with **'differential evolution'** method in range [1, 30]
+<br/><br/>Part of the code is shown below:
+
+```py
+# Setting the range for searching in form of tuple inside list as function requires it
+x4_range = [(1, 30)]  # tuple inside list
+# Finding minimum of smooth function
+y4_min = optimize.differential_evolution(h_array, [(1, 30)])
+print(y4_min)  # fun = -11.0, iterations = 3
+```
+
+Full code is available here: [Function_Optimization.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Function_Optimization.py)
+
+Results are plot in order to understand the difference in finding minimums in smooth and non-smooth functions. Figure is shown below:
+
+![Smooth_and_non-smooth_functions_to_be_optimized](images/Smooth_and_non-smooth_functions_to_be_optimized.png)
 
 <br/>
 
