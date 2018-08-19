@@ -115,7 +115,7 @@ Implementing the task for finding minimum of given smooth and non-smooth functio
 Initial **smooth** function is as following (the same as it is in approximation task above):
 <br/>**f(x) = sin(x / 5) * exp(x / 10) + 5 * exp(-x / 2)**
 
-Finding minimum of **smooth** function with **'BFGS'** method with start point **2**
+<br/>Finding minimum of **smooth** function with **'BFGS'** method and start point **2**
 <br/>Part of the code is shown below:
 ```py
 # Setting initial point in form of 'ndarray' as 'minimize' function requires it in form of 'ndarray'
@@ -128,7 +128,7 @@ y0_min = optimize.minimize(f_array, x0_start, method='BFGS')
 print(y0_min)  # fun = 1.7452682903449388, iterations = 6
 ```
 
-<br/>Finding minimum of **smooth** function with **'BFGS'** method with start point **30**
+<br/>Finding minimum of **smooth** function with **'BFGS'** method and start point **30**
 <br/>Part of the code is shown below:
 ```py
 # Setting initial point in form of 'ndarray' as 'minimize' function requires it in form of 'ndarray'
@@ -159,7 +159,7 @@ def h_array(k):
     return np.int_(f_array(k))
 ```
 
-<br/>Finding minimum of **non-smooth** function with **'BFGS'** method with start point **30**
+<br/>Finding minimum of **non-smooth** function with **'BFGS'** method and start point **30**
 <br/>Part of the code is shown below:
 ```py
 # Setting initial point in form of 'ndarray' as 'minimize' function requires it in form of 'ndarray'
