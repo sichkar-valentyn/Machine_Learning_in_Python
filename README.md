@@ -25,6 +25,7 @@ Codes (it'll send you to appropriate file):
 Theory (it'll send you to appropriate page):
 
 * [Probabilistic Distribution](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/blob/master/Theory/Probabilistic_Distribution.md)
+* [Machine Learning Algorithms](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/blob/master/Theory/Machine_Learning_Algorithms.md)
 
 <br/>
 Experimental results (figures and tables on this page):
