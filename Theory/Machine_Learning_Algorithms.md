@@ -5,11 +5,11 @@ Most popular Machine Learning Algorithms. **Coming soon. Release in December 201
 ## Content
 Theory and experimental results (on this page):
 
-* <a href="#Linear Regression">Linear Regression</a>
+* [Linear Regression](#linear-regression)
 
 <br/>
 
-### <a name="Linear Regression">Linear Regression</a>
+### <a id="linear-regression">Linear Regression</a>
 
 
 ```py
