@@ -30,13 +30,13 @@ Theory (it'll send you to appropriate page):
 <br/>
 Experimental results (figures and tables on this page):
 
-* <a href="#Processing sentences and finding cosine distances">Processing sentences and finding cosine distances</a>
-* <a href="#Approximation of functions via linear equations">Approximation of functions via linear equations</a>
-* <a href="#Optimization of smooth and non-smooth functions">Optimization of smooth and non-smooth functions</a>
+* [Processing sentences and finding cosine distances](#processing-sentences-and-finding-cosine-distances)
+* [Approximation of functions via linear equations](#approximation-of-functions-via-linear-equations)
+* [Optimization of smooth and non-smooth functions](#optimization-of-smooth-and-non-smooth-functions)
 
 <br/>
 
-### <a name="Processing sentences and finding cosine distances">Processing sentences and finding cosine distances</a>
+### <a id="processing-sentences-and-finding-cosine-distances">Processing sentences and finding cosine distances</a>
 Implementing the task about processing sentences. Finding cosine distances between first sentence and all others. For implementation a two-dimensional matrix is created, where rows are sentences (objects) and columns are words (properties).
 <br/>Matrix is filled with numbers that corresponds to number of times every word (property) were met in every sentence. Then, after matrix was built, distances are calculated between first vector (row) and all others. Calculation is done with the help of **'scipy.spatial.distance.cosine'** function.
 <br/><br/>Part of the code is shown below with a lot of comments:
@@ -77,7 +77,7 @@ Full code is available here: [Processing_Sentences.py](https://github.com/sichka
 
 <br/>
 
-### <a name="Approximation of functions via linear equations">Approximation of functions via linear equations</a>
+### <a id="approximation-of-functions-via-linear-equations">Approximation of functions via linear equations</a>
 Implementing the task for approximation of function with linear equations. Using first degree polynomial, second degree polynomial and third degree polynomial. Solving equations with matrix method via **'numpy.linalg.solve(a, b)'** function.
 
 Initial function is as following:
@@ -115,7 +115,7 @@ Results are plot in order to understand the quality of approximation in eache ca
 
 <br/>
 
-### <a name="Optimization of smooth and non-smooth functions">Optimization of smooth and non-smooth functions</a>
+### <a id="optimization-of-smooth-and-non-smooth-functions">Optimization of smooth and non-smooth functions</a>
 Implementing the task for finding minimum of given smooth and non-smooth functions. Using **scipy.optimaze** library and two methods - **BFGS** and **differential evolution**.
 
 Initial **smooth** function is as following (the same as it is in approximation task above):
