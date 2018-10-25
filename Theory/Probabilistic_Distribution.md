@@ -5,11 +5,11 @@ Explaining Probabilistic Distributions in Python. **Coming soon. Release in Dece
 ## Content
 Theory and experimental results (on this page):
 
-* <a href="#Probabilistic Distribution">Probabilistic Distribution</a>
+* [Probabilistic Distribution](#probabilistic-distribution)
 
 <br/>
 
-### <a name="Probabilistic Distribution">Probabilistic Distribution</a>
+### <a id="probabilistic-distribution">Probabilistic Distribution</a>
 
 
 ```py
