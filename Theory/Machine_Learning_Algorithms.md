@@ -1,5 +1,5 @@
 # Machine Learning Algorithms
-Most popular Machine Learning Algorithms. **Coming soon. Will be released in January 2019**
+Most popular Machine Learning Algorithms. **Coming soon. Will be released in March 2019**
 <br/>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1345027.svg)](https://doi.org/10.5281/zenodo.1345027)
 
 ## Content
