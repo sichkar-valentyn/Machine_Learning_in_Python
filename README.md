@@ -3,7 +3,7 @@ Implementing Machine Learning algorithms and techniques in Python.
 <br/>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1345027.svg)](https://doi.org/10.5281/zenodo.1345027)
 
 ### Courses:
-* Explore course **"Convolutional Neural Networks for Image Classification"** here: https://stepik.org/course/53801/promo
+* Explore the course **"Convolutional Neural Networks for Image Classification"** here: https://stepik.org/course/53801/promo
 
 ### Reference to:
 Valentyn N Sichkar. Machine Learning in Python // GitHub platform. DOI: 10.5281/zenodo.1345027
