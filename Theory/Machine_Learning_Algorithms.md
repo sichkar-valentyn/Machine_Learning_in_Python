@@ -15,9 +15,11 @@ Theory and experimental results (on this page):
   * [K-means](#k-means)
   * [Principal Component Analysis](#principal-component-analysis)
   * [Neural Networks](#neural-networks)
+    * [FFNN](#ffnn)
+    * [CNN](#cnn)
+    * [RNNs](#rnns)
 
-
-### <a id="main-objects-detection-algorithms">Machine Learning Algorithms Overview</a>
+### <a id="main-machine-learning-algorithms">Machine Learning Algorithms Overview</a>
 There are variety of Machine Learning algorithms. Fig.1.1 below shows the most popular of them. We will move step by step exploring each of them.
 
 | ![Machine Learning Algorithms](https://github.com/sichkar-valentyn/Neural_Networks_for_Computer_Vision/blob/master/images/Machine_Learning/Machine_Learning_Algorithms.png) | 
@@ -55,6 +57,18 @@ There are variety of Machine Learning algorithms. Fig.1.1 below shows the most p
 <br/>
 
 ### <a id="neural-networks">Neural Networks</a>
+
+<br/>
+
+#### <a id="ffnn">FFNN</a>
+
+<br/>
+
+#### <a id="cnn">CNN</a>
+
+<br/>
+
+#### <a id="rnns">RNNs</a>
 
 <br/>
 
