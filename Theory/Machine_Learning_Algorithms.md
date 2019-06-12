@@ -12,7 +12,7 @@ Theory and experimental results (on this page):
 ### <a id="main-objects-detection-algorithms">Machine Learning Algorithms Overview</a>
 There are variety of Machine Learning algorithms. Fig.1.1 below shows the most popular of them. We will move step by step exploring each of them.
 
-| ![Machine Learning Algorithms](https://github.com/sichkar-valentyn/Neural_Networks_for_Computer_Vision/blob/master/images/Objects_Detection/Objects_Detection_Algorithms_.png) | 
+| ![Machine Learning Algorithms](https://github.com/sichkar-valentyn/Neural_Networks_for_Computer_Vision/blob/master/images/Machine_Learning/Machine_Learning_Algorithms.png) | 
 |:--:| 
 | *Figure 1.1. Machine Learning Algorithms* |
 
