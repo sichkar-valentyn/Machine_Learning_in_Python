@@ -44,8 +44,6 @@ Practical experiments on Machine Learning in Python. Processing of sentences and
 * [Function_Approximation.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Function_approximation.py)
 * [Function_Optimization.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Function_Optimization.py)
 
-<br/>
-
 ### **<a id="empirical-examples">Empirical Examples</a>** (figures and tables on this page):
 * [Processing sentences and finding cosine distances](#processing-sentences-and-finding-cosine-distances)
 * [Approximation of functions via linear equations](#approximation-of-functions-via-linear-equations)
@@ -214,7 +212,7 @@ Results are plot in order to understand the difference in finding minimums in sm
 <br/>
 
 ### MIT License
-### Copyright (c) 2018 Valentyn N Sichkar
+### Copyright (c) 2018-2019 Valentyn N Sichkar
 ### github.com/sichkar-valentyn
 ### Reference to:
 Valentyn N Sichkar. Machine Learning in Python // GitHub platform. DOI: 10.5281/zenodo.1345027
