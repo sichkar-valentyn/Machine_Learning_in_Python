@@ -8,31 +8,45 @@ Implementing Machine Learning algorithms and techniques in Python.
 ### Reference to:
 Valentyn N Sichkar. Machine Learning in Python // GitHub platform. DOI: 10.5281/zenodo.1345027
 
-### Related works:
+### Structure of repository
+* [Research papers](#research-papers)
+* [Related works](#related-works)
+* [Description](#description)
+* [Content](#content)
+  * [Theory and experimental results](#theory-and-experimental-results)
+  * [Codes](#codes)
+  * [Empirical Examples](#empirical-examples)
+
+### <a id="research-papers">Research papers</a>
 * Sichkar V.N. Comparison analysis of knowledge based systems for navigation of mobile robot and collision avoidance with obstacles in unknown environment. St. Petersburg State Polytechnical University Journal. Computer Science. Telecommunications and Control Systems, 2018, Vol. 11, No. 2, Pp. 64–73. DOI: <a href="https://doi.org/10.18721/JCSTCS.11206" target="_blank">10.18721/JCSTCS.11206</a> (Full-text available also here https://www.researchgate.net/profile/Valentyn_Sichkar)
 
+<br/>
+
+### <a id="related-works">Related works</a>
 * The study on image processing in Python is put in separate repository and is available here: https://github.com/sichkar-valentyn/Image_processing_in_Python
 
 * The study of Neural Networks for Computer Vision in autonomous vehicles and robotics is put in separate repository and is available here: https://github.com/sichkar-valentyn/Neural_Networks_for_Computer_Vision
 
-## Description
+<br/>
+
+### <a id="description">Description</a>
 Practical experiments on Machine Learning in Python. Processing of sentences and finding relevant ones, approximation of function with polynomials.
 
-## Content
-Codes (it'll send you to appropriate file):
+<br/>
+
+### <a id="content">Content</a>
+### **<a id="theory-and-experimental-results">Theory and experimental results</a>** (it'll send you to appropriate page):
+* [Probabilistic Distribution](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/blob/master/Theory/Probabilistic_Distribution.md)
+* [Machine Learning Algorithms](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/blob/master/Theory/Machine_Learning_Algorithms.md)
+
+### **<a name="codes">Codes</a>** (it'll send you to appropriate file):
 * [Processing_Sentences.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Processing_Sentences.py)
 * [Function_Approximation.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Function_approximation.py)
 * [Function_Optimization.py](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/tree/master/Codes/Function_Optimization.py)
 
 <br/>
-Theory (it'll send you to appropriate page):
 
-* [Probabilistic Distribution](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/blob/master/Theory/Probabilistic_Distribution.md)
-* [Machine Learning Algorithms](https://github.com/sichkar-valentyn/Machine_Learning_in_Python/blob/master/Theory/Machine_Learning_Algorithms.md)
-
-<br/>
-Experimental results (figures and tables on this page):
-
+### **<a id="empirical-examples">Empirical Examples</a>** (figures and tables on this page):
 * [Processing sentences and finding cosine distances](#processing-sentences-and-finding-cosine-distances)
 * [Approximation of functions via linear equations](#approximation-of-functions-via-linear-equations)
 * [Optimization of smooth and non-smooth functions](#optimization-of-smooth-and-non-smooth-functions)
