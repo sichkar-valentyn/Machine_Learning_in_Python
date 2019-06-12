@@ -30,7 +30,7 @@ Valentyn N Sichkar. Machine Learning in Python // GitHub platform. DOI: 10.5281/
 <br/>
 
 ### <a id="description">Description</a>
-Practical experiments on Machine Learning in Python. Processing of sentences and finding relevant ones, approximation of function with polynomials.
+Practical experiments on Machine Learning in Python. Processing of sentences and finding relevant ones, approximation of function with polynomials and other experiments.
 
 <br/>
 
