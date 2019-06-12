@@ -8,6 +8,14 @@ Theory and experimental results (on this page):
 
 * [Machine Learning Algorithms Overview](#main-machine-learning-algorithms)
   * [Linear Regression](#linear-regression)
+  * [Logistic Regression](#logistic-regression)
+  * [Decision Tree](#decision-tree)
+  * [Least Squares](#least-squares)
+  * [Support Vector Machine](#support-vector-machine)
+  * [K-means](#k-means)
+  * [Principal Component Analysis](#principal-component-analysis)
+  * [Neural Networks](#neural-networks)
+
 
 ### <a id="main-objects-detection-algorithms">Machine Learning Algorithms Overview</a>
 There are variety of Machine Learning algorithms. Fig.1.1 below shows the most popular of them. We will move step by step exploring each of them.
@@ -19,6 +27,34 @@ There are variety of Machine Learning algorithms. Fig.1.1 below shows the most p
 <br/>
 
 ### <a id="linear-regression">Linear Regression</a>
+
+<br/>
+
+### <a id="logistic-regression">Logistic Regression</a>
+
+<br/>
+
+### <a id="decision-tree">Decision Tree</a>
+
+<br/>
+
+### <a id="least-squares">Least Squares</a>
+
+<br/>
+
+### <a id="support-vector-machine">Support Vector Machine</a>
+
+<br/>
+
+### <a id="k-means">K-means</a>
+
+<br/>
+
+### <a id="principal-component-analysis">Principal Component Analysis</a>
+
+<br/>
+
+### <a id="neural-networks">Neural Networks</a>
 
 <br/>
 
