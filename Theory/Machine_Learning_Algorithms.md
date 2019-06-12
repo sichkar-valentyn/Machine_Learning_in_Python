@@ -1,6 +1,6 @@
 # Machine Learning Algorithms
 Most popular Machine Learning Algorithms.
-**Under construction. Coming soon.**
+<br/>**Under construction. Coming soon.**
 <br/>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1345027.svg)](https://doi.org/10.5281/zenodo.1345027)
 
 ## Content
